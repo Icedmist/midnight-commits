@@ -27,7 +27,7 @@ st.write("Offline Logger v1.0")
 # 3. INPUT FORM
 with st.form("attendance_form"):
     # Dropdown for team members
-    name = st.selectbox("Select Student:", ["Nasir", "Abdulazeez", "Breeze"])
+    name = st.selectbox("Select Student:", ["Nasir", "Abdul", "sudo"])
     
     # Radio button for status
     status = st.radio("Status:", ["Present ✅", "Absent ❌", "Late ⏰"])
